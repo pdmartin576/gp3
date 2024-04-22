@@ -1,21 +1,38 @@
 * {margin: 0 auto;padding: 0;box-sizing: border-box;}
+/* 
+    #79803C
+    #E97B46
+    #CBA95F
+    #772E25
+    #283D3B
+    Bad:
+    #4C3223
+*/
 
-.item-box {
-    display: flex;
-    max-width: 75%;
-    flex-direction: column;
-    margin-bottom: 1em;
+body {
+    background-color: #79803C;
+    color: #333232;
 }
-.title-box {
-    display: flex;
-    border: .1em solid black;
+.collapsible {
+    background-color: #283d3b;
+    color: linen;
+    cursor: pointer;
+    padding: 18px;
     width: 100%;
-    justify-content: space-between;
-}
-.title-content {
-    flex-grow: 1;
-}
-.button-content {
-    background: none;
     border: none;
-}
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #172c2a;
+  }
+  
+  .content {
+    padding: 0 1.5rem;
+    display: none;
+    overflow: hidden;
+    background-color: #CBA95F;
+    border:2px solid #283d3b;
+  }
