@@ -22,6 +22,12 @@ header {
   align-items: flex-end;
   flex-wrap: wrap;
 }
+header .external-links {
+  /* border: 2px solid black; */
+  flex-grow: 0.5;
+  display: flex;
+  justify-content: space-evenly;
+}
 header a {
   color: linen;
   text-decoration: none;
@@ -81,6 +87,20 @@ main h1 {
   .spell {
     color: #094074;
   }
+.about {
+  max-width: 500px;
+  background-color: #CBA95F;
+}
+.bio p {
+  line-height: 1.5;
+  margin: 2rem 0;
+  padding: 0 0.5rem;
+  font-size: 1.12rem;
+}
+  img {
+  display: block;
+  width: 100%;
+}
 .back-to-top {
   position: fixed;
   right: 0.5rem;
